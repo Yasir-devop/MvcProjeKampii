@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<title>İstatislik</title>
+
+<div class="card-deck">
+    <div class="card text-white bg-info mb-md-4">
+        <div class="card-body">
+            <h5 class="card-title"><ul><li><b>Toplam Kategori Sayısı</b></li></ul></h5>
+            <br />
+            <h5 class="card-text"><i><u>@ViewBag.viewbag</u></i></h5>
+        </div>
+    </div>
+    <div class="card text-white bg-gradient-olive mb-md-4">
+        <div class="card-body">
+            <h5 class="card-title"><ul><li><b>Yazılım Kategorisi Başlık Sayısı</b></li></ul></h5>
+            <br />
+            <h5 class="card-text"> <i><u>@ViewBag.viewbag1</u></i></h5>
+        </div>
+    </div>
+    <div class="card text-white bg-gradient-red mb-md-4">
+        <div class="card-body">
+            <h5 class="card-title"><ul><li><b>Yazar adında 'a' harfi geçen yazar sayısı</b></li></ul></h5>
+            <br />
+            <h5 class="card-text"><i><u>@ViewBag.viewbag2</u></i></h5>
+        </div>
+    </div>
+
+    <div class="card text-white bg-orange mb-md-4">
+        <div class="card-body">
+            <h5 class="card-title text-white"><ul><li><b>En Fazla Başlığı Olan Kategori Adı</b></li></ul></h5>
+            <br />
+            <h5 class="card-text text-white"><i><u>@ViewBag.viewbag3</u></i></h5>
+        </div>
+    </div>
+
+    <div class="card text-white bg-gradient-purple mb-md-4">
+        <div class="card-body">
+            <h5 class="card-title"><ul><li><b>Kategoriler Tablosunda T/F Farkı</b></li></ul></h5>
+            <br />
+            <h5 class="card-text"><i><u>@ViewBag.viewbag4</u></i></h5>
+        </div>
+    </div>
+</div>
+
